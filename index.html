@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant - La Bonne Saveur</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #d35400;
+      border-bottom: 2px solid #d35400;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .menu-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .menu-item p {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bienvenue chez <i>LA BONNE SAVEUR</i></h1>
+  <p>Des pépites pour satisfaire vos papilles !</p>
+</header>
+
+<main>
+  <section>
+    <h2>Plats traditionnels</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><img src="mafe.jpg"><p>Mafé</p></div>
+      <div class="menu-item"><img src="domoda.jpg"><p>Domoda</p></div>
+      <div class="menu-item"><img src="thiebou_dieune.jpg"><p>Thiébou Dieune</p></div>
+      <div class="menu-item"><img src="thiebou_guinar.jpg"><p>Thiébou Guinar</p></div>
+      <div class="menu-item"><img src="yassa.jpg"><p>Yassa</p></div>
+      <div class="menu-item"><img src="yassa_boulette.jpg"><p>Yassa Boulette</p></div>
+      <div class="menu-item"><img src="caldou.jpg"><p>Caldou</p></div>
+      <div class="menu-item"><img src="thiou.jpg"><p>Thiou</p></div>
+      <div class="menu-item"><img src="cest_bon.jpg"><p>C’est Bon</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Desserts</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><img src="thiakry.jpg"><p>Thiakry</p></div>
+      <div class="menu-item"><img src="ngalax.jpg"><p>Ngalax</p></div>
+      <div class="menu-item"><img src="glace.jpg"><p>Glace</p></div>
+      <div class="menu-item"><img src="salade_fruit.jpg"><p>Salade de Fruits</p></div>
+      <div class="menu-item"><img src="salade_fruit2.jpg"><p>Salade de Fruits (2)</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rafraîchissements</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><img src="bouy.jpg"><p>Bouy</p></div>
+      <div class="menu-item"><img src="bissap.jpg"><p>Bissap</p></div>
+      <div class="menu-item"><img src="ditakh.jpg"><p>Ditakh</p></div>
+      <div class="menu-item"><img src="gingembre.jpg"><p>Gingembre</p></div>
+      <div class="menu-item"><img src="ananas.jpg"><p>Ananas</p></div>
+      <div class="menu-item"><img src="tamarin.jpg"><p>Tamarin</p></div>
+      <div class="menu-item"><img src="pomme.jpg"><p>Pomme</p></div>
+      <div class="menu-item"><img src="orange.jpg"><p>Orange</p></div>
+      <div class="menu-item"><img src="boisson_gazeuse.jpg"><p>Boissons Gazeuses</p></div>
+      <div class="menu-item"><img src="jus.jpg"><p>Jus Locaux</p></div>
+      <div class="menu-item"><img src="smoothies.jpg"><p>Smoothies</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Merci pour votre visite et à bientôt chez <strong>La Bonne Saveur</strong> !</p>
+</footer>
+
+</body>
+</html>
